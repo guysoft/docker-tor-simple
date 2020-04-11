@@ -1,7 +1,7 @@
 PROJECT_NAME ?= tor
 VERSION ?= $(strip $(shell cat VERSION))
 GIT_COMMIT = $(strip $(shell git rev-parse --short HEAD))
-DOCKER_IMAGE ?= osminogin/tor-simple
+DOCKER_IMAGE ?= guysoft/tor-simple
 DOCKER_TAG ?= latest
 
 # Build Docker image
